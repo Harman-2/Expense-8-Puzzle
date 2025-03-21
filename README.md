@@ -1,54 +1,13 @@
-# Expense-8-Puzzle
-1. Name - Harmanpreet kaur
+<h1 align="center">Hi there 👋, I'm Harmanpreet</h1>
+<h3 align="center">AI Passionate | Crafting Tomorrow's Technology</h3>
 
-2. Programming Language and Version Used - Python 3.9.13
+- 📫 How to reach me **harmanrathour001@gmail.com**
 
-3. Code Structure - 
-    - Follows Functional and Procedural Programming
-    - Functions used in the main program:
-        - read(file)
-            - To read text file and store the data in a 2d numpy array
-        - fetch_all_possible_states(node,cost,level,method,pathway,move)
-            - To expand a node and generate all possible child nodes
-        - action(tile,direction,move)
-            - To find and store the action taken to reach a state
-        - path(pathway,node)
-            - To find and store the path of a state
-        - def heuristic_value(node)
-            - To find the total manhattan distance of a state
-        - addtofringe(state_n,cost_n,level,path_n,action_n):
-            - To append node and its details to the fringe
-    - Prcoedural Programming for the methods to solve the puzzle:
-        - Check for the validilty of start and goal text files and store them in 2 different arrays
-        - Intialising the dictionary called fringe with required initial data
-        - Stores the data about all the states, their costs, depths, pathways, actions, heuristic values and f(n) values in a dictionary called fringe
-        - Conditional statments for the method to be used, if not found default method is A* 
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://linkedin.com/in/https://www.linkedin.com/in/harmanpreet-kaur-2341731b2" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/harmanpreet-kaur-2341731b2" height="30" width="40" /></a>
+<a href="https://instagram.com/hrmnn_.k" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="hrmnn_.k" height="30" width="40" /></a>
+</p>
 
-4. Instructions To Run The Code - 
-    - command line command format to run the code is :
-        python expense_8_puzzle.py <start-file> <goal-file> <method> <dump-flag>
-    - Example commands :
-        - BFS algorithm :
-            python expense_8_puzzle.py start.txt goal.txt bfs
-        - UCS algorithm with dumpFlag true :
-            python expense_8_puzzle.py start.txt goal.txt ucs true
-    - All the methods need to be passed with only small letters(eg: "bfs") 
-    - For the method A* the method argument should be "a\*" 
-        - OR even no method argument passed will defaultly run with the A* method
-    - start and goal file are required arguments
-        - start file can be passed with any different tile locations, as long as the file is in the standard format
-    - method and dumpFlag are optional arguments
-        - default values for method is a* and for dumpFlag is false
-    
-5. Contents Of The Directory - 
-    - The source code - expense_8_puzzle.py
-    - The readme file - readme.txt
-    - A start file - start.txt
-    - The goal file - goal.txt
-
-    - Note :
-        If source code run with dumpFlag true, a dump.txt text file will be created in the directory
-
-
-7. dump.txt
-    - Printing each node and its cost,depth,action done to get to the state, its f(n) value(only for a* search), and its parent state
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://canvasjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/Hardik0307/Hardik0307/master/assets/canvasjs-charts.svg" alt="canvasjs" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.microsoft.com/en-us/sql-server" target="_blank" rel="noreferrer"> <img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="mssql" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.oracle.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.sqlite.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
