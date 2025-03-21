@@ -1,0 +1,7 @@
+OUTPUT:
+Nodes Popped: 1495
+Nodes Expanded: 11
+Nodes Generated: 1506
+Max Fringe Size: (9222862135173914853, 0)
+Solution Found at depth 12 with cost of 36.
+Steps:
