@@ -3,7 +3,7 @@
 
 - 📫 How to reach me **harmanrathour001@gmail.com**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:</h3> instagram linkledn
 <p align="left">
 </p>
 
